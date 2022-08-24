@@ -22,7 +22,7 @@ object mario {
 		elemento.recibirTrabajo()
 		ultimoElementoVisitado = elemento
 	}
-	
+	method valorRecolectado() = valorRecolectado
 	method estaFeliz() = valorRecolectado >= 50 or ultimoElementoVisitado.altura() >= 10
 	
 }

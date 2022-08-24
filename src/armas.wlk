@@ -1,3 +1,4 @@
+
 object ballesta {
 	var cantDeFlechas = 10
 	method estaCargada() = cantDeFlechas > 0 
